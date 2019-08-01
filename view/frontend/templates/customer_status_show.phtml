@@ -1,0 +1,10 @@
+<?php
+    
+    /**
+     * @var $this \WebGate\CustomerStatus\Block\Status
+     */
+
+?>
+<?php if($this->isLoggedIn()){ ?>
+  <li><?= $this->getStatus() ?></li>
+<?php } ?>

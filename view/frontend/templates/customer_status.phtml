@@ -1,0 +1,29 @@
+<?php
+    
+    /**
+     * @var $this \WebGate\CustomerStatus\Block\Status
+     */
+?>
+
+<form class="form" action="<?= $this->getUrl('customer-status/update') ?>" method="post" autocomplete="off">
+ 
+  <fieldset class="fieldset info">
+    <legend class="legend"><span>Customer Status</span></legend>
+    <br>
+
+    <div class="field field-name-firstname required">
+      <label class="label" for="firstname"><span>Status</span></label>
+      <div class="control">
+        <input type="text" name="status" value="<?= $this->getStatus() ?>"  class="input-text required-entry">
+      </div>
+    </div>
+    
+  </fieldset>
+  
+  <div class="actions-toolbar">
+    <div class="primary">
+      <button type="submit" class="action save primary" title="Save"><span>Save</span></button>
+    </div>
+  </div>
+  
+</form>
