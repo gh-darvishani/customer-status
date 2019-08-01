@@ -2,7 +2,7 @@
     "name": "webgate/customerstatus",
     "description": "N/A",
     "require": {
-        "magento/framework": "100.0.*"
+      
     },
     "type": "magento2-module",
     "version": "1.0.0",
